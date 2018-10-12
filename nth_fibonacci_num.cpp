@@ -4,7 +4,7 @@
 #define ll long long
 #define inf 1000000007
 
-double A[1000001]={0};
+ll A[1000001]={0};
 
 ll fib(int n)
 {
