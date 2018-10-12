@@ -30,5 +30,6 @@ int main()
 	for(auto &a:v) cin>>a;
 
 	cout<<lis(v,n)<<endl;
+	return 0;
 }
 
