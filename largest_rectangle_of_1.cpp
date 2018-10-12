@@ -21,8 +21,6 @@ void largest_rectangle(int n, int m)
 			else
 				dp[i][j] = A[i][j] == 0 ? 0 : dp[i-1][j] + 1;
 		}
-	for(int i=0;i<n;i++)
-		sort(A[i],A[i]+m);
 	int ans=0;
 
 	for(int i=0;i<n;i++)
