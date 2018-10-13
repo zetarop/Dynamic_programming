@@ -26,7 +26,6 @@ void largest_rectangle(int n, int m)
 	for(int i=0;i<n;i++)
 	{
 		int arr[m];
-		fill(arr,arr+m,0);
 		for(int j=0;j<m;j++)
 			arr[j]=dp[i][j];
 		sort(arr,arr+m);
