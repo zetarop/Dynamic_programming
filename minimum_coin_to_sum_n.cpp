@@ -15,10 +15,6 @@ int minimumCoin(ve<int> v, int sum)
 		for(auto a:v)
 			if(i >= a && dp[i-a] != inf)
 				dp[i] = min(dp[i], 1+dp[i-a]);
-	for(int i=0;i<=sum;i++)
-		cout<<dp[i]<<" ";
-	cout<<endl;
-
 	return dp[sum] == inf ? -1 : dp[sum];
 }
 
