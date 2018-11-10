@@ -15,6 +15,7 @@ int solve()
 	ve<int> v(n);
 	for(auto &x:v)
 		cin>>x;
+	cin>>sum;
 	int dp[sum+1];
 	fill(dp, dp+sum+1,0);
 	dp[0]=1;
